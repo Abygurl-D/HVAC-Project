@@ -18,12 +18,9 @@ h1 {
 }
 
 nav {
-  height: 30px;
-
   background-color: white;
   color: black;
   padding: 10px;
-
   width: 100%;
   position: fixed;
   top: 0;
@@ -35,7 +32,7 @@ nav {
 nav .container {
   display: flex;
   flex-direction: row;
-  /* justify-content: ; */
+  justify-content:space-around ; 
   align-items: center;
   /* column-gap: 100px; */
 }
@@ -46,19 +43,17 @@ nav .container {
   width: 70%;
   justify-content: center;
   column-gap: 30px;
+  align-items: center;
 }
 
 #nav-items a {
   color: black;
+  font-weight: bold;
 }
 
 .nav-icons {
   display: flex;
   column-gap: 20px;
-}
-
-#hero-section {
-  margin-top: 60px;
 }
 
 #logo-bg {
@@ -69,4 +64,93 @@ nav .container {
   text-align: center;
   letter-spacing: normal;
   font-family: sans-serif;
+  padding: 30px;
+  border-bottom-left-radius: 30%;
+  
+  border-bottom-right-radius: 30%
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  ;
+  /* border-bottom-right-radius: 80% */
+  
+
+
 }
+
+.phone {
+  border: 2px solid yellow;
+  padding: 20px;
+  color: #6fbaf0;
+  font-weight: bold;
+}
+
+#hero-section {
+  background-image: url("./images/hero-1.jpg");
+  height: 100vh;
+  width: 100vw;
+  object-fit: fill;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin-top: 150px; */
+}
+
+#hero-title {
+  color: #160e01;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+#hero-subtext {
+  color: #160e01;
+  font-size: 1.5rem;
+}
+
+#hero-button {
+  background-color: #fad110;
+  color: #160e01;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+
+.hero-overlay {
+  height: 40%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background-color: white;
+  position: fixed;
+}
+
+/* #benefit-overlay{
+  display: flex;
+  flex-direction: row;
+} */
