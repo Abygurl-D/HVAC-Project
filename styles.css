@@ -20,14 +20,14 @@ h1 {
 nav {
   background-color: white;
   color: black;
-  padding: 10px;
+  padding-top: 10px;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 99;
-  margin-bottom: 20px;
-}
+
+} 
 
 nav .container {
   display: flex;
@@ -58,42 +58,8 @@ nav .container {
 
 #logo-bg {
   background-color: #142336;
-  fill: #212529;
-  font-size: 16px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: normal;
-  font-family: sans-serif;
-  padding: 30px;
-  border-bottom-left-radius: 30%;
-  
-  border-bottom-right-radius: 30%
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  
-  ;
-  /* border-bottom-right-radius: 80% */
-  
+  padding: 20px;
+  /* margin-bottom: -30px; */
 
 
 }
@@ -110,20 +76,23 @@ nav .container {
   height: 100vh;
   width: 100vw;
   object-fit: fill;
-  background-attachment: fixed;
   background-position: center;
-  background-size: cover;
+  background-size:cover;
   position: relative;
   display: flex;
+  background-repeat: no-repeat;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
+  margin-top: 40px;
   /* margin-top: 150px; */
 }
 
 #hero-title {
-  color: #160e01;
-  font-size: 2rem;
-  font-weight: bold;
+  font-family:"Saira Condensed", sans-serif ;
+  color:  rgb(20, 35, 54);
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 55px;
 }
 
 #hero-subtext {
@@ -132,14 +101,20 @@ nav .container {
 }
 
 #hero-button {
-  background-color: #fad110;
-  color: #160e01;
-  padding: 10px 20px;
-  border-radius: 20px;
-}
+  display: inline-block;
+  padding: 0.5em 1.5em;
+  text-decoration: none;
+  border-radius: 50px;
+  cursor: pointer;
+  outline: none;
+  margin-top: 1em;
+  text-transform: uppercase;
+  background-color: yellow;
+  padding: 15px 15px;
+  font-weight: small;}
 
 .hero-overlay {
-  height: 40%;
+  height: 60%;
   width: 40%;
   display: flex;
   flex-direction: column;
@@ -147,10 +122,55 @@ nav .container {
   justify-content: center;
   gap: 10px;
   background-color: white;
-  position: fixed;
+  /* position: fixed; */
+  padding: 10px 10px;
+  margin-left: 60px;
+  box-sizing: border-box;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 /* #benefit-overlay{
+  display: flex;
+  flex-direction: row;
+} */
+
+
+.benifit {
+	position: relative;
+	z-index: 1;
+	margin-top: -90px;
+  display: flex;
+  flex-direction: row;
+}
+
+.benifit__item {
+	text-align: center;
+	border: 1px solid #e1e1e1;
+	padding: 30px 25px 25px;
+	background: #ffffff;
+	margin-bottom: 30px;
+}
+
+.benifit__item h4 {
+	color: #142336;
+	font-weight: 600;
+	margin-top: 26px;
+}
+
+.b-items{
+  display: flex;
+  flex-direction: row;
+ align-items: center;
+ /* column-gap: 10px; */
+ width: 100%; 
+ margin-left: 60px;
+ 
+ /* padding-left: 30px;
+ padding-right: 30px; */
+}
+
+/* .container{
   display: flex;
   flex-direction: row;
 } */
