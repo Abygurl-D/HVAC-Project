@@ -59,6 +59,7 @@ nav .container {
 #logo-bg {
   background-color: #142336;
   padding: 20px;
+  clip-path: polygon(100% 0, 100% 89%, 49% 100%, 0 89%, 0 0);
   /* margin-bottom: -30px; */
 
 
