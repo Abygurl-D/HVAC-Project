@@ -54,6 +54,7 @@ nav .container {
 .nav-icons {
   display: flex;
   column-gap: 20px;
+  overflow: hidden;
 }
 
 #logo-bg {
@@ -163,15 +164,67 @@ nav .container {
   display: flex;
   flex-direction: row;
  align-items: center;
- /* column-gap: 10px; */
  width: 100%; 
  margin-left: 60px;
- 
- /* padding-left: 30px;
- padding-right: 30px; */
 }
 
-/* .container{
-  display: flex;
-  flex-direction: row;
-} */
+.services-home {
+	padding-top: 70px;
+}
+
+.services-home .section-title {
+	margin-bottom: 35px;
+}
+
+.border__btn {
+	text-align: right;
+	margin-bottom: 50px;
+}
+
+/* /*---------------------
+  Counter
+-----------------------*/
+
+.container-s{
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    gap: 20px;
+}
+
+
+.ncount {
+	font-weight: bold;
+}
+
+.counter-item {
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.counter-item{
+	font-size: 20px;
+	color: #ffffff;
+	display: block;
+	font-weight: 700;
+	letter-spacing: 1px;
+	line-height: 46px;
+	/* margin-bottom: 25px;
+	margin-top: 26px; */
+}
+
+.counter-item h4 {
+	color: #4586D5;
+	font-weight: 600;
+}
+
+
+.container-c{
+  background: #142336;
+	padding-bottom: 60px;
+
+}
+
+.cim{
+  align-items: center;
+}
