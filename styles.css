@@ -71,7 +71,7 @@ nav .container {
   padding: 20px;
   color: #6fbaf0;
   font-weight: bold;
-  
+
 }
 
 #hero-section {
@@ -247,9 +247,14 @@ nav .container {
 
 }
 
-/* .cim{
-  align-items: center;
-} */
+.section-title {
+  font-weight: bold;
+  font-size: 2rem;
+  color: #5084BE;
+}
+
+
+
 
 .services-item {
   text-align: center;
@@ -280,12 +285,125 @@ nav .container {
   padding: 20px;
 }
 
-.sitem-pic{
+
+
+.stext-icon {
+  width: 50px;
+  height: 50px;
+  background-color: #FAD110;
+  clip-path: polygon(100% 0, 100% 87%, 52% 100%, 0 86%, 0 0);
+  overflow: hidden;
+  position: absolute;
+
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  /* top: 50px;
+  margin-top: 20px; */
+}
+
+.stext-icon img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 100px;
+  /* position: absolute;  */
+}
+
+.sitem-text {
   position: relative;
 }
 
-.stext-icon{
-  width: 20%;
-  clip-path: polygon(100% 0, 100% 87%, 52% 100%, 0 86%, 0 0);
+
+/*---------------------
+  Quote
+-----------------------*/
+
+.quote {
+  background: #4586D5;
+  position: relative;
 }
 
+.quote-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+
+.input-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  font-size: 15px;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+input,
+select {
+  border: 1px solid#8FB6E6;
+  padding: 20px;
+  border-radius: 5px;
+  color: white;
+  background: transparent;
+  fill: #ffffff;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  outline: none;
+}
+
+input::placeholder,
+select::placeholder,
+textarea::placeholder {
+  padding: 5px;
+  color: white;
+}
+
+.quote__form {
+  height: 596px;
+  padding: 85px 85px 80px 0;
+}
+
+.quote-form h2 {
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 40px;
+  padding-top: 20px;
+  text-align: start;
+}
+
+.message {
+  border: 1px;
+  height: auto;
+  width: 100%;
+  background: transparent;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.message button {
+  padding: 10px;
+  background-color: #FAD110;
+  color: white;
+}
+
+.message button:hover {
+  background-color: #9e8204;
+}
+
+.message textarea {
+  background: #4586D5;
+  border: 1px solid#8FB6E6;
+
+}
+
+input [ type="text"] {
+  color: white;
+}
